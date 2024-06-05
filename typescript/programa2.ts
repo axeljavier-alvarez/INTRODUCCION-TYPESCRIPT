@@ -1,5 +1,5 @@
 // funcion de typescript
-function sumar(): void {
+/* function sumar(): void {
     // forma 1
     const numero1 : number = parseFloat((document.getElementById("txtNumero1") as HTMLInputElement).value);
 
@@ -16,4 +16,17 @@ function sumar(): void {
     // resultado
     document.getElementById("resultado").innerHTML = "La suma es: " + suma;
     
+} */
+
+
+function calcularArea(): void {
+    const base: number= parseFloat((document.getElementById('txtBase') as HTMLInputElement).value);
+    const altura: number= parseFloat((document.getElementById('txtAltura') as HTMLInputElement).value);
+
+    const area: number = (base * altura)/2;
+
+    document.getElementById("resultado").innerHTML = "El valor del area es: " + area.toFixed(2);
+
+
+
 }
