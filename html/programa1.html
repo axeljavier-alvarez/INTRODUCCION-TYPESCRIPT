@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programa 1</title>
     <link rel="stylesheet" href="../css/programa1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-md" style="background-color:  #5b8cb9f6;">
+
+    <header class=" p-3 text-primary-emphasis" id="header">
+        <div class="row">
+            <div class="col-auto">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png"
+                    class="float-left" style="width: 150px; height: auto;" alt="">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md" style="background-color:  #332f2c;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> </a>
             <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -21,19 +33,38 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
+                        <a class="nav-link active text-light" aria-current="page"
+                            href="../index.html"><strong>Inicio</strong></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-light" href="animaciones.html">Animaciones</a>
+                        <a class="nav-link text-light" href="programa1.html">Programa 1</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-light" href="transiciones.html">Transiciones</a>
+                        <a class="nav-link text-light" href="programa2.html">Programa 2</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-light" href="biblioteca1.html">Biblioteca 1</a>
+                        <a class="nav-link text-light" href="programa3.html">Programa 3</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-light" href="biblioteca2.html">Biblioteca 2</a>
+                        <a class="nav-link text-light" href="programa4.html">Programa 4</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa5.html">Programa 5</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa6.html">Programa 6</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa7.html">Programa 7</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa8.html">Programa 8</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa9.html">Programa 9</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="programa10.html">Programa 10</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -44,30 +75,58 @@
 
     <br>
     <br>
-    <h1>Calcular Promedio de 3 Números</h1>
+    
 
-  <form id="formulario">
-    <label for="txtNumero1">Número 1:</label>
-    <input type="number" id="txtNumero1" name="txtNumero1" required>
 
-    <label for="numero2">Número 2:</label>
-    <input type="number" id="txtNumero2" name="numero2" required>
+    <div class="container text-center rounded-4  text-success-emphasis align-items-center text-center">
+        <div class="row">
+            <div class="col-12 col-md-9 order-md-1 text-success-emphasis">
+                <div class="container">
+                    <div class="row">
+                        <section class="col-12 col-md-8 order-md-1  py-3">
+                            <h3 class="text-primary">Problema #1</h3>
 
-    <label for="numero3">Número 3:</label>
-    <input type="number" id="txtNumero3" name="numero3" required>
+                            <form class="bg-light px-5 py-4 shadow-lg mb-5 rounded-4">
+                                <div class="mb-3">
+                                    <label for="txtNumero1">Número 1</label>
+                                    <input type="number" class="form-control shadow-lg" id="txtNumero1" placeholder="Ingrese un número" autocomplete="off">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="numero2">Número 2:</label>
+                                <input type="number" class="form-control shadow-lg" id="txtNumero2" placeholder="Ingrese un número"  autocomplete="off">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="numero3">Número 3:</label>
+                                    <input type="number" class="form-control shadow-lg" id="txtNumero3" placeholder="Ingrese un número"  autocomplete="off">
+                                </div>
+    
+                                <section id="btn" class="py-4">
+                                    <div class="mb-3">
+                                        <button type="button" class="btn btn-primary form-control"
+                                            onclick="calcularPromedio()">Calcular promedio</button>
+                                    </div>
+                                </section>
 
-    <input type="button" onclick="calcularPromedio()">Calcular Promedio</input>
-  </form>
+                            </form>
 
-  <div id="resultado">
-    <p>El promedio es: <span id="promedio"></span></p>
-  </div>
+                            <div id="resultado">
+                                <p>El promedio es: <span id="promedio"></span></p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script src="../javascript/HelloWord.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-  crossorigin="anonymous"></script>
+
+    <script src="../javascript/programa1.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
