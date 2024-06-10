@@ -11,7 +11,6 @@ btnResta.addEventListener('click', restar);
 btnMulti.addEventListener('click', multiplicar);
 btnDiv.addEventListener('click', dividir);
 
-
 // se muestra el resultado
 const divResultado = document.getElementById('resultado') as HTMLParagraphElement;
 
@@ -42,10 +41,8 @@ function sumar(){
         recibirValores();
         const suma = numero1 + numero2;
         divResultado.textContent = "La suma es: " + suma;
-    }
-    
+    }   
 }
-
 function restar(){
     if(recibirValores()==0){
 
