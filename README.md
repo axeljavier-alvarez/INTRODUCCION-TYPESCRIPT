@@ -10,7 +10,7 @@
 | 2023-023346 | Axel Alvarez |
 
 ### Sitio web 
-http://axjavierjavier.000.pe/javascriptCalculos/
+https://axeljavier-alvarez.github.io/INTRODUCCION-TYPESCRIPT/
 
 ### Descripcion del proyecto
 > 1. ¿Qué es TypeScript?
@@ -25,6 +25,9 @@ Desarrollo más escalable: La tipificación estática ayuda a prevenir problemas
 
 > 3. ¿Cómo se instala TypeScript en VSCode?
 Abre VSCode y ve a la extensión "Extensions", buscar "TypeScript" y hacer clic en "Install" y reiniciar VSCode para que la extensión se cargue correctamente.
+
+> 4. ¿Cómo se compila un archivo TypeScript para convertirlo a JavaScript?
+tsc: El compilador oficial de TypeScript. Puedes ejecutarlo desde la terminal con el comando tsc nombre_archivo.ts.
 
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-2a0505?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
