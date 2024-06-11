@@ -32,6 +32,7 @@ operacionesPoo.asignarNumero1(10);
 operacionesPoo.asignarNumero2(20);
 console.log(operacionesPoo.sumar());
 console.log(operacionesPoo.restar());
+// agregar nuevo objeto
 var ope2 = new OperacionesPoo();
 ope2.asignarNumero1(750);
 ope2.asignarNumero2(854);

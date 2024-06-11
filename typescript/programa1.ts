@@ -5,9 +5,10 @@ function calcularPromedio(): void {
     const numero3: number = parseFloat((document.getElementById('txtNumero3')as  HTMLInputElement).value);
 
     // hacer el promedio
-    const promedio: number = (numero1 + numero2 + numero3) / 3;
-     
-    // convertir a 2 decimales
-    document.getElementById('promedio').textContent = promedio.toFixed(2);
+    const calcularPromedio: number = (numero1 + numero2 + numero3) / 3;
+    const promedio = document.getElementById('promedio') as HTMLParagraphElement;
+
+    promedio.textContent = `El promedio es ${calcularPromedio.toFixed(2)}`;
+
 }
 

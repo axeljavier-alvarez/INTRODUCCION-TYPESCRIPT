@@ -6,19 +6,21 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/programa10.css">
+    <link rel="stylesheet" href="../css/programa2.css">
 </head>
 <body>
+
 
     <header class=" p-3 text-primary-emphasis" id="header">
         <div class="row">
             <div class="col-auto">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" class="float-left" style="width: 150px; height: auto;" alt="">
-            </div>            
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png"
+                    class="float-left" style="width: 150px; height: auto;" alt="">
+            </div>
         </div>
     </header>
-    
-    <nav class="navbar navbar-expand-md" style="background-color:#332f2c;">
+
+    <nav class="navbar navbar-expand-md" style="background-color:  #332f2c;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> </a>
             <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -71,74 +73,37 @@
     <div class="container text-center rounded-4  text-success-emphasis align-items-center text-center">
         <div class="row">
             <div class="col-12 col-md-9 order-md-1 text-success-emphasis">
-                <!--<div class="col-12 col-md-9 order-md-1 border 1px bg-success-subtle text-success-emphasis">-->
                 <div class="container">
                     <div class="row">
                         <section class="col-12 col-md-8 order-md-1  py-3">
-                            <h3 class="text-primary">Problema # 10</h3>
-
-                            <!-- FORMULARIO -->
-                            <form class="bg-light px-5 py-4 shadow-lg mb-5 rounded-4">
+                            <h3 class="text-primary">Programa #10</h3>
+                            <form class="bg-light px-5 py-4 shadow-lg mb-5 rounded-4">   
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="valor 1">Número 1</label>
-                                    <input type="text" class="form-control shadow-lg" id="txtValor1" placeholder="Ingrese un texto" autocomplete="off">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="valor 2">Número 2</label>
-                                    <input type="text" class="form-control shadow-lg" id="txtValor2" placeholder="Ingrese un texto" autocomplete="off">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="valor 3">Número 3</label>
-                                    <input type="text" class="form-control shadow-lg" id="txtValor3" placeholder="Ingrese un texto" autocomplete="off">
-                                </div>
-                                
-                                <!-- BOTONES -->
+                                    <label for="txtTexto">Texto:</label>
+                                    <input type="text" class="form-control shadow-lg" id="txtTexto" placeholder="Ingrese un texto" autocomplete="off">
+                                </div>   
                                 <section id="btn" class="py-4">
                                     <div class="mb-3">
                                         <button type="button" class="btn btn-primary form-control"
-                                            onclick="concatenar()">Calcular promedio</button>
+                                            onclick="contarVocales()">Contar las vocales</button>
                                     </div>
                                 </section>
-
-                                <!-- RESULTADO 
-                            
-                                <section>
-                                    <div class="text-bg-success rounded-5 form-control">
-                                        <p id="resultadoC" class="text-break text-bg-success h5" >resutado</p>
-
-                                    </div>                 
-                                </section>-->
                             </form>
-                            <br>
+                            <p id="resultado">
+                            </p>
                         </section>
                     </div>
                 </div>
-                <br>
             </div>
-
-
-            <!-- IMAGEN FLOTANTE
-            <section class="col-12 col-md-3 order-md-1  rounded-4 d-flex flex-column justify-content-between align-items-center text-center">
-                <div id="creditos">
-                </div>
-                <div id="logo_int_50" class="text-end py-5">
-                    <img src="../img/intecap-50.png" alt="logo de intecap 50" width="250px">
-                </div>
-            </section> -->
-            
-              
-
         </div>
     </div>
 
     <!--tsc typescript/programa2.ts --outDir javascript-->
-    <script></script>
+    <script src="../javascript/programa10.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <br>
-    
 </body>
 </html>
