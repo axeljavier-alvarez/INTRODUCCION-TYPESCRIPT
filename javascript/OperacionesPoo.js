@@ -16,24 +16,52 @@ var OperacionesPoo = /** @class */ (function () {
     };
     OperacionesPoo.prototype.sumar = function () {
         this.resultado = this.numero1 + this.numero2;
-        return "La suma es: " + this.resultado;
+        return "La suma es: " + this.resultado + "\n";
     };
     OperacionesPoo.prototype.restar = function () {
         this.resultado = this.numero1 - this.numero2;
-        return "La resta es: " + this.resultado;
+        return "La resta es: " + this.resultado + "\n";
+    };
+    OperacionesPoo.prototype.multiplicar = function () {
+        this.resultado = this.numero1 * this.numero2;
+        return "La multiplicacion es: " + this.resultado + "\n";
+    };
+    OperacionesPoo.prototype.dividir = function () {
+        this.resultado = this.numero1 / this.numero2;
+        return "La division es: " + this.resultado.toFixed(2) + "\n";
     };
     return OperacionesPoo;
 }());
 /* ------------- FINALIZA LA CLASE ----------------*/
 // crear un objeto tipo OperacionesPoo = instanciar la clase Operaciones
 var operacionesPoo = new OperacionesPoo();
-// const operaciones2 = new OperacionesPoo();
-operacionesPoo.asignarNumero1(10);
-operacionesPoo.asignarNumero2(20);
-console.log(operacionesPoo.sumar());
-console.log(operacionesPoo.restar());
+var divDatos = document.getElementById('datos');
+function obtenerDatos() {
+    // asignando a los atributos del objeto los valores de los controles del formulario
+    operacionesPoo.asignarNumero1(parseFloat(document.getElementById("txtNumero1").value));
+    operacionesPoo.asignarNumero2(parseFloat(document.getElementById("txtNumero2").value));
+}
+// FUNCION SUMAR: 
+function sumar() {
+    obtenerDatos();
+    divDatos.textContent = operacionesPoo.sumar();
+}
+function restar() {
+    obtenerDatos();
+    divDatos.textContent = operacionesPoo.restar();
+}
+function multiplicar() {
+    obtenerDatos();
+    divDatos.textContent = operacionesPoo.multiplicar();
+}
+function dividir() {
+    obtenerDatos();
+    divDatos.textContent = operacionesPoo.dividir();
+}
+/* console.log(operacionesPoo.sumar());
+console.log(operacionesPoo.restar()); */
 // agregar nuevo objeto
-var ope2 = new OperacionesPoo();
-ope2.asignarNumero1(750);
-ope2.asignarNumero2(854);
-console.log(ope2.sumar());
+/*  const ope2 = new OperacionesPoo();
+ ope2.asignarNumero1(750);
+ ope2.asignarNumero2(854);
+ console.log(ope2.sumar()); */
