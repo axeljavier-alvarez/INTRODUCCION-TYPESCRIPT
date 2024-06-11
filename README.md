@@ -29,3 +29,6 @@ Abre VSCode y ve a la extensión "Extensions", buscar "TypeScript" y hacer clic 
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-2a0505?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 ![Boostrap](https://img.shields.io/badge/Bootstrap-black%20?logo=bootstrap)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-2a0505?style=flat&logo=javascript)&nbsp;
+![TypeScript](https://img.shields.io/badge/TypeScript-black%20?logo=typescript)&nbsp;
+![Visual Code](https://img.shields.io/badge/Visual%20Code-black?logo=visualstudiocode)&nbsp;
