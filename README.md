@@ -57,7 +57,6 @@ Parámetros predeterminados: Se les asigna un valor por defecto. Si no se pasa n
 > 13. Mejores prácticas para escribir código limpio y mantenible en TypeScript:
 Tipificación clara y precisa que define los tipos de datos de variables, funciones y parámetros para mejorar la legibilidad y la seguridad del código, nombres descriptivos como utilizar nombres de variables y funciones que describan claramente su propósito, funciones cortas y enfocadas, mantener las funciones cortas y con un solo propósito claro, evitar funciones complejas y difíciles de entender, comentarios útiles como agregar comentarios cuando sea necesario para explicar partes del código que no sean evidentes por sí mismas, formato consistente como seguir un estilo de codificación consistente en cuanto a indentación, espacios en blanco y uso de mayúsculas y minúsculas, tambien interfaces para representar las estructuras de datos y las relaciones entre ellas.
 
-Utiliza tipos de unión y literales: Los tipos de unión y literales permiten definir tipos de datos más precisos y flexibles.
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-2a0505?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 ![Boostrap](https://img.shields.io/badge/Bootstrap-black%20?logo=bootstrap)&nbsp;
