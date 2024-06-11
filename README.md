@@ -24,13 +24,7 @@ Mejora de la legibilidad: El código TypeScript es más claro y fácil de entend
 Desarrollo más escalable: La tipificación estática ayuda a prevenir problemas en proyectos grandes y complejos.
 
 > 3. ¿Cómo se instala TypeScript en VSCode?
-Abre VSCode y ve a la extensión "Extensions",
-buscar "TypeScript" y hacer clic en "Install" y
-reiniciar VSCode para que la extensión se cargue correctamente.
-* Tipificación estática: TypeScript permite capturar errores de tipo en tiempo de compilación, evitando problemas en tiempo de ejecución.
-* Mayor autocompletado: Los IDE como VSCode pueden ofrecer un mejor autocompletado y sugerencias de tipo basadas en la tipificación.
-* Refactorización más segura: Al conocer los tipos, puedes realizar cambios en el código con mayor confianza, reduciendo el riesgo de introducir errores.
-* Mejora de la legibilidad: El código TypeScript es más claro y fácil de entender debido a la información de tipos explícita.
+Abre VSCode y ve a la extensión "Extensions", buscar "TypeScript" y hacer clic en "Install" y reiniciar VSCode para que la extensión se cargue correctamente. * Tipificación estática: TypeScript permite capturar errores de tipo en tiempo de compilación, evitando problemas en tiempo de ejecución. * Mayor autocompletado: Los IDE como VSCode pueden ofrecer un mejor autocompletado y sugerencias de tipo basadas en la tipificación. * Refactorización más segura: Al conocer los tipos, puedes realizar cambios en el código con mayor confianza, reduciendo el riesgo de introducir errores. * Mejora de la legibilidad: El código TypeScript es más claro y fácil de entender debido a la información de tipos explícita.
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-2a0505?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 ![Boostrap](https://img.shields.io/badge/Bootstrap-black%20?logo=bootstrap)&nbsp;
