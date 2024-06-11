@@ -25,5 +25,5 @@ function calcularDatos() : void {
 
     const resultado = document.getElementById('resultado') as HTMLParagraphElement;
 
-    resultado.textContent = `El número mayor es: ${mayor} <br>El número menor es: ${menor}`;
+    resultado.textContent = `El numero mayor es: ${mayor} <br>El numero menor es: ${menor}`;
 }

@@ -19,5 +19,5 @@ function calcularDatos() {
         menor = numero3;
     }
     var resultado = document.getElementById('resultado');
-    resultado.textContent = "El n\u00FAmero mayor es: ".concat(mayor, " \nEl n\u00FAmero menor es: ").concat(menor);
+    resultado.textContent = "El numero mayor es: ".concat(mayor, " <br>El numero menor es: ").concat(menor);
 }
